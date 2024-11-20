@@ -3,7 +3,7 @@ import styles from '../styles/Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="Contact">
       <div className={styles.footerContent}>
         <Image
           aria-hidden
@@ -13,25 +13,11 @@ const Footer = () => {
           height={62.56}
         />
         <div className={styles.footerLinks}>
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#FocusWall" rel="noopener noreferrer">
             Focuswall
           </a>
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cube
-          </a>
-          <a
-            href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a>Cube</a>
+          <a href="#Flag" rel="noopener noreferrer">
             Flag
           </a>
         </div>

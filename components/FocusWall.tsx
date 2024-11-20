@@ -3,13 +3,13 @@ import styles from '../styles/FocusWall.module.css';
 
 const FocusWall = () => {
   return (
-    <div className={styles.focusWall}>
+    <div className={styles.focusWall} id="FocusWall">
       <div className={styles.links}>
         <div className={styles.navContent}>
           <a className={`${styles.link} ${styles.active}`}>01.Фокусволи</a>
           <a>02.Куби</a>
-          <a>03.Віндери</a>
-          <a>04.Підтримка</a>
+          <a href="#Flag">03.Віндери</a>
+          <a href="#Contact">04.Підтримка</a>
         </div>
       </div>
       <div className={styles.content}>

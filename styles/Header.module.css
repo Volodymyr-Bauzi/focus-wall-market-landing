@@ -12,6 +12,7 @@
   width: 82%;
   margin: 0 auto;
   height: 90px;
+  z-index: 1;
 }
 
 .logo {
@@ -26,4 +27,11 @@
   font-weight: 600;
   font-size: 19px;
   margin-top: 5px;
+  z-index: 2;
+}
+
+.frame a:hover {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
 }

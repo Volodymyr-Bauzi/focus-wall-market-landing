@@ -1,15 +1,20 @@
 .carousel {
   width: 100%;
+  background: black;
 }
 
 .carouselContent {
-  width: 60%;
+  padding-top: 1px;
+  padding-left: 4rem;
+  width: 75%;
   margin: 0 auto;
+  background: white;
 }
 
 .cText {
   color: #bbe73e;
   font-size: 48px;
+  margin: 5rem 0 0 5rem;
 }
 
 .embla {
@@ -21,9 +26,16 @@
 }
 
 .emblaSlide {
-  flex: 0 0 100%;
+  flex: 0 0 30%;
   min-width: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: hsl(0, 0%, 60%);
+  font-size: 28px;
+}
+
+.emblaSlide p {
+  margin: 6rem 0;
 }

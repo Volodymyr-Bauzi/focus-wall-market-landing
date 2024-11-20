@@ -13,10 +13,10 @@ const Header = () => {
           height={90}
         />
         <div className={styles.frame}>
-          <a>Focuswall</a>
-          <a>Cube</a>
-          <a>Flag</a>
-          <a>Contact</a>
+          <a href="#Focuswall">Focuswall</a>
+          <a href="#Cube">Cube</a>
+          <a href="#Flag">Flag</a>
+          <a href="#Contact">Contact</a>
         </div>
       </div>
     </div>
