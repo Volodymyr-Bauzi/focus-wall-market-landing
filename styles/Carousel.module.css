@@ -1,0 +1,29 @@
+.carousel {
+  width: 100%;
+}
+
+.carouselContent {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cText {
+  color: #bbe73e;
+  font-size: 48px;
+}
+
+.embla {
+  overflow: hidden;
+}
+
+.emblaContainer {
+  display: flex;
+}
+
+.emblaSlide {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

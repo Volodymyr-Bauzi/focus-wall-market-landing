@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css';
 import FocusWall from '@/components/FocusWall';
 import MainPage from '@/components/MainPage';
 import Footer from '@/components/Footer';
+import Carousel from '@/components/Carousel';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -31,6 +32,7 @@ export default function Home() {
       >
         <MainPage />
         <FocusWall />
+        <Carousel />
         <Footer />
       </div>
     </>
