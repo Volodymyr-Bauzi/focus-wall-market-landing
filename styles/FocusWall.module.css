@@ -1,0 +1,56 @@
+.focusWall {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.links {
+  margin: 100px 0;
+}
+
+.navContent {
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.active {
+  font-size: 36px;
+  color: #bbe73e;
+}
+
+.content {
+  display: flex;
+  width: 75.9vw;
+  margin: 0 auto;
+}
+.textSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35%;
+  margin: 0 auto;
+  font-size: 20px;
+  align-items: center;
+  color: hsl(0, 0%, 60%);
+  margin-top: 6rem;
+}
+
+.textSide p span {
+  font-style: italic;
+  font-size: 32px;
+  color: white;
+  font-weight: 800;
+}
+.order {
+  padding: 13px;
+  border-radius: 15px;
+  font-size: 24px;
+  border: 2px solid #bbe73e;
+  background: black;
+  width: 233px;
+}
+.image {
+}

@@ -1,0 +1,44 @@
+.footer {
+  width: 100%;
+  background-color: black;
+}
+
+.footerContent {
+  padding-left: 2rem;
+  color: white;
+  grid-row-start: 3;
+  display: flex;
+  /* gap: 24px; */
+  height: 129px;
+  justify-content: space-around;
+  font-size: 19px;
+  align-items: center;
+  width: 73%;
+  margin: 0 auto;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 60px;
+  padding-left: 9rem;
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer img {
+  flex-shrink: 0;
+}
+
+.contacts {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 7px;
+  margin-bottom: 8px;
+  letter-spacing: 0.4px;
+}
