@@ -1,25 +1,25 @@
 import Header from './Header';
 import styles from '../styles/MainPage.module.css';
+import Image from 'next/image';
 
 const MainPage = () => {
   return (
-    <>
-      <main className={styles.main}>
+    <div className={styles.mainPage}>
+      <div className={styles.container}>
         <Header />
-        <div className={styles.textPart}>
+
+        <div className={styles.content}>
           <div className={styles.text}>
             <p>Текстильні лайтбокси </p>
             <p>Рекламні куби </p>
             <p>Віндери, прапори</p>
+            <button>Замовляй прямо зараз!</button>
           </div>
-          <button>Замовляй прямо зараз!</button>
+          <div className={styles.leftSection}></div>
+          <div className={styles.rightSection}></div>
         </div>
-        <div className={styles.backgroundFP}>
-          <div className={styles.first}></div>
-          <div className={styles.second}></div>
-        </div>
-      </main>
-    </>
+      </div>
+    </div>
   );
 };
 

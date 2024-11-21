@@ -3,23 +3,29 @@ import styles from '../styles/Header.module.css';
 
 const Header = () => {
   return (
-    <div className={styles.hat}>
-      <div className={styles.hatContainer}>
-        <Image
-          className={styles.logo}
-          src="/logo.svg"
-          alt="Next.js logo"
-          width={75}
-          height={90}
-        />
-        <div className={styles.frame}>
-          <a href="#Focuswall">Focuswall</a>
+    <nav className={`${styles.navbar} ${styles.frame}`}>
+      <Image
+        className={styles.logo}
+        src="/logo.svg"
+        alt="Next.js logo"
+        width={75}
+        height={90}
+      />
+      <ul>
+        <li>
+          <a href="#FocusWall">Focuswall</a>
+        </li>
+        <li>
           <a href="#Cube">Cube</a>
+        </li>
+        <li>
           <a href="#Flag">Flag</a>
+        </li>
+        <li>
           <a href="#Contact">Contact</a>
-        </div>
-      </div>
-    </div>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
