@@ -1,5 +1,5 @@
 import useEmblaCarousel from 'embla-carousel-react';
-import styles from '../styles/Carousel.module.css';
+import styles from '../styles/Carousel.module.scss';
 import Image from 'next/image';
 
 const Carousel = () => {

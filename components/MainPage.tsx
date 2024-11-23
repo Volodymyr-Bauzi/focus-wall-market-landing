@@ -1,5 +1,5 @@
 import Header from './Header';
-import styles from '../styles/MainPage.module.css';
+import styles from '../styles/MainPage.module.scss';
 import Image from 'next/image';
 
 const MainPage = () => {
