@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/FocusWall.module.scss';
+import Button from './Button';
 
 const FocusWall = () => {
   return (
@@ -21,7 +22,7 @@ const FocusWall = () => {
             функціональність із сучасним дизайном, що робить їх придатними для
             широкого спектру застосувань, від рекламних до декоративних цілей.
           </p>
-          <button className={styles.order}>Замовити</button>
+          <Button>Замовити</Button>
         </div>
         <Image
           className={styles.image}

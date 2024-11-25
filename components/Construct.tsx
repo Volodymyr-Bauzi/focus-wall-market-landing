@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from '@/styles/Construct.module.scss';
+import Button from './Button';
 
 const Construct = () => {
   return (
@@ -48,7 +49,7 @@ const Construct = () => {
             </p>
           </div>
         </div>
-        <button className={styles.cDetailsButton}>Детальніше</button>
+        <Button>Детальніше</Button>
       </div>
     </div>
   );

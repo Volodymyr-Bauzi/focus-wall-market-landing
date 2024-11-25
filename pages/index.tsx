@@ -6,6 +6,7 @@ import MainPage from '@/components/MainPage';
 import Footer from '@/components/Footer';
 import Carousel from '@/components/Carousel';
 import Construct from '@/components/Construct';
+import Cubes from '@/components/Cubes';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -33,6 +34,7 @@ export default function Home() {
         <MainPage />
         <FocusWall />
         <Construct />
+        <Cubes />
         <Carousel />
         <Footer />
       </div>

@@ -79,7 +79,7 @@ $button-hover-bg: #0056b3;
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 76.5%;
+    width: 100%;
     margin: 0 auto;
 
     .content {
@@ -100,25 +100,6 @@ $button-hover-bg: #0056b3;
           font-weight: 700;
           /* Uncomment this if required */
           /* margin-bottom: 1.5rem; */
-        }
-
-        button {
-          padding: 0.9rem 1.5rem;
-          background: none;
-          color: $white;
-          border: 2px solid $white;
-          cursor: pointer;
-          font-size: 1rem;
-          border-radius: 15px;
-          transition: background-color 0.3s ease;
-          width: 276px;
-          margin-top: 9.4rem;
-          /* Uncomment this if required */
-          /* margin-left: 2.6rem; */
-
-          &:hover {
-            background-color: $button-hover-bg;
-          }
         }
       }
 

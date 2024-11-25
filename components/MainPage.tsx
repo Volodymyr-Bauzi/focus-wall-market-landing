@@ -1,6 +1,7 @@
 import Header from './Header';
 import styles from '../styles/MainPage.module.scss';
 import Image from 'next/image';
+import Button from './Button';
 
 const MainPage = () => {
   return (
@@ -13,7 +14,16 @@ const MainPage = () => {
             <p>Текстильні лайтбокси </p>
             <p>Рекламні куби </p>
             <p>Віндери, прапори</p>
-            <button>Замовляй прямо зараз!</button>
+            <Button
+              borderColor="white"
+              fontSize={16}
+              fontWeight={400}
+              width={276}
+              padding="0.9rem"
+              mt="9.4rem"
+            >
+              Замовляй прямо зараз!
+            </Button>
           </div>
           <div className={styles.leftSection}></div>
           <div className={styles.rightSection}></div>

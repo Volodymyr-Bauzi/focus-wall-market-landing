@@ -1,0 +1,44 @@
+.cubes {
+  color: white;
+  display: flex;
+  gap: 5rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-bottom: 10rem;
+
+  .cubesText {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    h2 {
+      font-size: 64px;
+      color: #bbe73e;
+      margin-left: 2rem;
+    }
+    .paragraph {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      p {
+        font-size: 24px;
+        color: hsl(0, 0%, 60%);
+        font-weight: 500;
+
+        span {
+          font-size: 30px;
+          font-weight: 600;
+          color: white;
+          font-style: italic;
+        }
+      }
+      button {
+        align-self: center;
+        margin-right: 7rem;
+      }
+    }
+  }
+  .image {
+    margin-top: 7rem;
+    align-self: center;
+  }
+}
