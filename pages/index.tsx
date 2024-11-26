@@ -5,7 +5,7 @@ import FocusWall from '@/components/FocusWall';
 import MainPage from '@/components/MainPage';
 import Footer from '@/components/Footer';
 import Carousel from '@/components/Carousel';
-import Construct from '@/components/Construct';
+import WallConstruct from '@/components/WallConstruct';
 import Cubes from '@/components/Cubes';
 
 const geistSans = localFont({
@@ -33,7 +33,7 @@ export default function Home() {
       >
         <MainPage />
         <FocusWall />
-        <Construct />
+        <WallConstruct />
         <Cubes />
         <Carousel />
         <Footer />

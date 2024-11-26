@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '@/styles/Construct.module.scss';
+import styles from '@/styles/WallConstruct.module.scss';
 import Button from './Button';
 
 const Construct = () => {
