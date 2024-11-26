@@ -1,0 +1,60 @@
+.construct {
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .cContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    color: #bbe73e;
+    font-size: 36px;
+    margin: 0 10rem;
+    gap: 3rem;
+
+    .cBenefits {
+      display: flex;
+      gap: 4rem;
+
+      .cBenefit {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 30%;
+        margin: 0 auto;
+
+        h2 {
+          margin-bottom: 1rem;
+        }
+
+        h3 {
+          color: white;
+          font-size: 20px;
+        }
+
+        p {
+          color: hsl(0, 0%, 60%);
+          font-size: 20px;
+        }
+      }
+
+      hr {
+        color: #bbe73e;
+      }
+    }
+
+    .cDetailsButton {
+      background: none;
+      width: 233px;
+      height: 70px;
+      border-radius: 15px;
+      border-color: #bbe73e;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    margin-bottom: 5rem;
+  }
+}

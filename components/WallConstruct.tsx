@@ -2,11 +2,11 @@ import Image from 'next/image';
 import styles from '@/styles/WallConstruct.module.scss';
 import Button from './Button';
 
-const Construct = () => {
+const WallConstruct = () => {
   return (
     <div className={styles.construct}>
       <Image
-        src="/Construct.png"
+        src="/WallConstruct.png"
         className={styles.cImg}
         alt="Focus Wall Construct"
         width={1139}
@@ -55,4 +55,4 @@ const Construct = () => {
   );
 };
 
-export default Construct;
+export default WallConstruct;
