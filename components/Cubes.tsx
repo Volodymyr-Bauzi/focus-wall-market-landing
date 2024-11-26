@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Cubes = () => {
   return (
-    <div className={styles.cubes}>
+    <div className={styles.cubes} id="Cube">
       <div className={styles.cubesText}>
         <h2>02.Куби</h2>
         <div className={styles.paragraph}>

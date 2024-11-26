@@ -16,7 +16,9 @@ const Footer = () => {
           <a href="#FocusWall" rel="noopener noreferrer">
             Focuswall
           </a>
-          <a>Cube</a>
+          <a href="#Cube" rel="noopener noreferrer">
+            Cube
+          </a>
           <a href="#Flag" rel="noopener noreferrer">
             Flag
           </a>

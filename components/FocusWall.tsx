@@ -8,7 +8,7 @@ const FocusWall = () => {
       <div className={styles.links}>
         <div className={styles.navContent}>
           <a className={`${styles.link} ${styles.active}`}>01.Фокусволи</a>
-          <a>02.Куби</a>
+          <a href="#Cube">02.Куби</a>
           <a href="#Flag">03.Віндери</a>
           <a href="#Contact">04.Підтримка</a>
         </div>
