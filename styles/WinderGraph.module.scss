@@ -1,0 +1,37 @@
+.winderGraph {
+  background-color: hsl(0, 0%, 20%);
+  height: 90vh;
+  width: 100%;
+  display: flex;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    .sizes {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      font-size: 32px;
+      font-weight: 600;
+      h3 {
+        color: #bbe73e;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+        font-size: 32px;
+      }
+      p {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        span {
+          color: #bbe73e;
+        }
+      }
+    }
+  }
+}

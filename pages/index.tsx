@@ -9,6 +9,7 @@ import WallConstruct from '@/components/WallConstruct';
 import Cubes from '@/components/Cubes';
 import CubesConstruct from '@/components/CubesConstruct';
 import Winder from '@/components/Winder';
+import WinderGraph from '@/components/WinderGraph';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -39,6 +40,7 @@ export default function Home() {
         <Cubes />
         <CubesConstruct />
         <Winder />
+        <WinderGraph />
         <Carousel />
         <Footer />
       </div>
