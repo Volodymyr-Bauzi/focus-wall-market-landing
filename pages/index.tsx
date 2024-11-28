@@ -8,6 +8,7 @@ import Carousel from '@/components/Carousel';
 import WallConstruct from '@/components/WallConstruct';
 import Cubes from '@/components/Cubes';
 import CubesConstruct from '@/components/CubesConstruct';
+import Winder from '@/components/Winder';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -37,6 +38,7 @@ export default function Home() {
         <WallConstruct />
         <Cubes />
         <CubesConstruct />
+        <Winder />
         <Carousel />
         <Footer />
       </div>
